@@ -447,7 +447,13 @@ li .dropdown-item{
     }
 }
 
-.between {
+.beet{
     display: flex;
     justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
 }
