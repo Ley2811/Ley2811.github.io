@@ -446,3 +446,8 @@ li .dropdown-item{
         flex-direction: column;
     }
 }
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
