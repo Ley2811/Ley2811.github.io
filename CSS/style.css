@@ -175,8 +175,8 @@ li .dropdown-item{
 
 .thecard {
     position: absolute;
-    width: 15%;
-    height: 30%;
+    width: 375px;
+    height: 362px;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
 }
@@ -187,19 +187,18 @@ li .dropdown-item{
 
 .thefront1 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/CERES\ \(1\).png");
     background-size: 100%;
-    background-repeat: no-repeat;
     color: aliceblue
 }
 
 .thefront2 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/CERES\ \(2\).png");
     background-size: 100%;
@@ -209,8 +208,8 @@ li .dropdown-item{
 
 .thefront3 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/DEMETER\ \(1\).png");
     background-size: 100%;
@@ -220,8 +219,8 @@ li .dropdown-item{
 
 .thefront4 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/DEMETER\ \(2\).png");
     background-size: 100%;
@@ -231,8 +230,8 @@ li .dropdown-item{
 
 .thefront5 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/DEMETER\ \(3\).png");
     background-size: 100%;
@@ -242,8 +241,8 @@ li .dropdown-item{
 
 .thefront6 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/GRAVITAR\ \(1\).png");
     background-size: 100%;
@@ -253,8 +252,8 @@ li .dropdown-item{
 
 .thefront7 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/GRAVITAR\ \(2\).png");
     background-size: 100%;
@@ -264,8 +263,8 @@ li .dropdown-item{
 
 .thefront8 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/GRAVITAR\ \(3\).png");
     background-size: 100%;
@@ -275,8 +274,8 @@ li .dropdown-item{
 
 .thefront9 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/HABITED.png");
     background-size: 100%;
@@ -286,8 +285,8 @@ li .dropdown-item{
 
 .thefront10 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/ISIS\ \(1\).png");
     background-size: 100%;
@@ -297,8 +296,8 @@ li .dropdown-item{
 
 .thefront11 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/ISIS\ \(2\).png");
     background-size: 100%;
@@ -308,8 +307,8 @@ li .dropdown-item{
 
 .thefront12 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/TAIGA\ \(1\).png");
     background-size: 100%;
@@ -319,8 +318,8 @@ li .dropdown-item{
 
 .thefront13 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/TAIGA\ \(2\).png");
     background-size: 100%;
@@ -330,8 +329,8 @@ li .dropdown-item{
 
 .thefront14 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/TATENEN\ \(1\).png");
     background-size: 100%;
@@ -341,8 +340,8 @@ li .dropdown-item{
 
 .thefront15 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/TATENEN\ \(4\).png");
     background-size: 100%;
@@ -352,8 +351,8 @@ li .dropdown-item{
 
 .thefront16 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 362px;
     backface-visibility: hidden;
     background: url("../IMG/Personajes/TATENEN\ \(2\).png");
     background-size: 100%;
@@ -456,4 +455,43 @@ li .dropdown-item{
     text-align: center;
     font-size: 40px;
     margin-bottom: 60px;
+}
+
+.card {
+    width: 375px;
+    height: 362px;
+    position: relative;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card-inner {
+    width: 375px;
+    height: 362px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    width: 375px;
+    height: 362px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background: url("imagen.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background: #208436;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
 }
