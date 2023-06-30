@@ -418,17 +418,7 @@ li .dropdown-item{
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1024px) {
-    .thecard {
-        position: absolute;
-        width: 15%;
-        height: 20%;
-        transform-style: preserve-3d;
-        transition: all 0.5s ease;
-    }
 
-    .gap-4 {
-        gap: 4.5rem !important;
-    }
 
 }
 
@@ -437,13 +427,7 @@ li .dropdown-item{
 }
 
 @media screen and (max-width: 320px) {
-    .row{
-        flex-direction: column;
-    }
 
-    .d-flex{
-        flex-direction: column;
-    }
 }
 
 .beet{
